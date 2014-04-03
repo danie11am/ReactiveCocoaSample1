@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC6C2D118ED474200FF35F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D018ED474200FF35F5 /* Foundation.framework */; };
+		ABC6C2D318ED474200FF35F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D218ED474200FF35F5 /* CoreGraphics.framework */; };
+		ABC6C2D518ED474200FF35F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D418ED474200FF35F5 /* UIKit.framework */; };
+		ABC6C2DB18ED474200FF35F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC6C2D918ED474200FF35F5 /* InfoPlist.strings */; };
+		ABC6C2DD18ED474200FF35F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6C2DC18ED474200FF35F5 /* main.m */; };
+		ABC6C2E118ED474200FF35F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6C2E018ED474200FF35F5 /* AppDelegate.m */; };
+		ABC6C2E318ED474200FF35F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC6C2E218ED474200FF35F5 /* Images.xcassets */; };
+		ABC6C2EA18ED474200FF35F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2E918ED474200FF35F5 /* XCTest.framework */; };
+		ABC6C2EB18ED474200FF35F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D018ED474200FF35F5 /* Foundation.framework */; };
+		ABC6C2EC18ED474200FF35F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D418ED474200FF35F5 /* UIKit.framework */; };
+		ABC6C2F418ED474300FF35F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC6C2F218ED474300FF35F5 /* InfoPlist.strings */; };
+		ABC6C2F618ED474300FF35F5 /* DanielReactiveCocoaSample1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6C2F518ED474300FF35F5 /* DanielReactiveCocoaSample1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC6C2ED18ED474200FF35F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC6C2C518ED474200FF35F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC6C2CC18ED474200FF35F5;
+			remoteInfo = DanielReactiveCocoaSample1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC6C2CD18ED474200FF35F5 /* DanielReactiveCocoaSample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanielReactiveCocoaSample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC6C2D018ED474200FF35F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABC6C2D218ED474200FF35F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABC6C2D418ED474200FF35F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABC6C2D818ED474200FF35F5 /* DanielReactiveCocoaSample1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DanielReactiveCocoaSample1-Info.plist"; sourceTree = "<group>"; };
+		ABC6C2DA18ED474200FF35F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABC6C2DC18ED474200FF35F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABC6C2DE18ED474200FF35F5 /* DanielReactiveCocoaSample1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DanielReactiveCocoaSample1-Prefix.pch"; sourceTree = "<group>"; };
+		ABC6C2DF18ED474200FF35F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABC6C2E018ED474200FF35F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABC6C2E218ED474200FF35F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABC6C2E818ED474200FF35F5 /* DanielReactiveCocoaSample1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanielReactiveCocoaSample1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC6C2E918ED474200FF35F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABC6C2F118ED474200FF35F5 /* DanielReactiveCocoaSample1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DanielReactiveCocoaSample1Tests-Info.plist"; sourceTree = "<group>"; };
+		ABC6C2F318ED474300FF35F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABC6C2F518ED474300FF35F5 /* DanielReactiveCocoaSample1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanielReactiveCocoaSample1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC6C2CA18ED474200FF35F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC6C2D318ED474200FF35F5 /* CoreGraphics.framework in Frameworks */,
+				ABC6C2D518ED474200FF35F5 /* UIKit.framework in Frameworks */,
+				ABC6C2D118ED474200FF35F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC6C2E518ED474200FF35F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC6C2EA18ED474200FF35F5 /* XCTest.framework in Frameworks */,
+				ABC6C2EC18ED474200FF35F5 /* UIKit.framework in Frameworks */,
+				ABC6C2EB18ED474200FF35F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC6C2C418ED474200FF35F5 = {
+			isa = PBXGroup;
+			children = (
+				ABC6C2D618ED474200FF35F5 /* DanielReactiveCocoaSample1 */,
+				ABC6C2EF18ED474200FF35F5 /* DanielReactiveCocoaSample1Tests */,
+				ABC6C2CF18ED474200FF35F5 /* Frameworks */,
+				ABC6C2CE18ED474200FF35F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC6C2CE18ED474200FF35F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC6C2CD18ED474200FF35F5 /* DanielReactiveCocoaSample1.app */,
+				ABC6C2E818ED474200FF35F5 /* DanielReactiveCocoaSample1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC6C2CF18ED474200FF35F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC6C2D018ED474200FF35F5 /* Foundation.framework */,
+				ABC6C2D218ED474200FF35F5 /* CoreGraphics.framework */,
+				ABC6C2D418ED474200FF35F5 /* UIKit.framework */,
+				ABC6C2E918ED474200FF35F5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABC6C2D618ED474200FF35F5 /* DanielReactiveCocoaSample1 */ = {
+			isa = PBXGroup;
+			children = (
+				ABC6C2DF18ED474200FF35F5 /* AppDelegate.h */,
+				ABC6C2E018ED474200FF35F5 /* AppDelegate.m */,
+				ABC6C2E218ED474200FF35F5 /* Images.xcassets */,
+				ABC6C2D718ED474200FF35F5 /* Supporting Files */,
+			);
+			path = DanielReactiveCocoaSample1;
+			sourceTree = "<group>";
+		};
+		ABC6C2D718ED474200FF35F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC6C2D818ED474200FF35F5 /* DanielReactiveCocoaSample1-Info.plist */,
+				ABC6C2D918ED474200FF35F5 /* InfoPlist.strings */,
+				ABC6C2DC18ED474200FF35F5 /* main.m */,
+				ABC6C2DE18ED474200FF35F5 /* DanielReactiveCocoaSample1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC6C2EF18ED474200FF35F5 /* DanielReactiveCocoaSample1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC6C2F518ED474300FF35F5 /* DanielReactiveCocoaSample1Tests.m */,
+				ABC6C2F018ED474200FF35F5 /* Supporting Files */,
+			);
+			path = DanielReactiveCocoaSample1Tests;
+			sourceTree = "<group>";
+		};
+		ABC6C2F018ED474200FF35F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC6C2F118ED474200FF35F5 /* DanielReactiveCocoaSample1Tests-Info.plist */,
+				ABC6C2F218ED474300FF35F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC6C2CC18ED474200FF35F5 /* DanielReactiveCocoaSample1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC6C2F918ED474300FF35F5 /* Build configuration list for PBXNativeTarget "DanielReactiveCocoaSample1" */;
+			buildPhases = (
+				ABC6C2C918ED474200FF35F5 /* Sources */,
+				ABC6C2CA18ED474200FF35F5 /* Frameworks */,
+				ABC6C2CB18ED474200FF35F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanielReactiveCocoaSample1;
+			productName = DanielReactiveCocoaSample1;
+			productReference = ABC6C2CD18ED474200FF35F5 /* DanielReactiveCocoaSample1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC6C2E718ED474200FF35F5 /* DanielReactiveCocoaSample1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC6C2FC18ED474300FF35F5 /* Build configuration list for PBXNativeTarget "DanielReactiveCocoaSample1Tests" */;
+			buildPhases = (
+				ABC6C2E418ED474200FF35F5 /* Sources */,
+				ABC6C2E518ED474200FF35F5 /* Frameworks */,
+				ABC6C2E618ED474200FF35F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC6C2EE18ED474200FF35F5 /* PBXTargetDependency */,
+			);
+			name = DanielReactiveCocoaSample1Tests;
+			productName = DanielReactiveCocoaSample1Tests;
+			productReference = ABC6C2E818ED474200FF35F5 /* DanielReactiveCocoaSample1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC6C2C518ED474200FF35F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Lam";
+				TargetAttributes = {
+					ABC6C2E718ED474200FF35F5 = {
+						TestTargetID = ABC6C2CC18ED474200FF35F5;
+					};
+				};
+			};
+			buildConfigurationList = ABC6C2C818ED474200FF35F5 /* Build configuration list for PBXProject "DanielReactiveCocoaSample1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABC6C2C418ED474200FF35F5;
+			productRefGroup = ABC6C2CE18ED474200FF35F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC6C2CC18ED474200FF35F5 /* DanielReactiveCocoaSample1 */,
+				ABC6C2E718ED474200FF35F5 /* DanielReactiveCocoaSample1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC6C2CB18ED474200FF35F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC6C2DB18ED474200FF35F5 /* InfoPlist.strings in Resources */,
+				ABC6C2E318ED474200FF35F5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC6C2E618ED474200FF35F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC6C2F418ED474300FF35F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC6C2C918ED474200FF35F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC6C2E118ED474200FF35F5 /* AppDelegate.m in Sources */,
+				ABC6C2DD18ED474200FF35F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC6C2E418ED474200FF35F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC6C2F618ED474300FF35F5 /* DanielReactiveCocoaSample1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC6C2EE18ED474200FF35F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC6C2CC18ED474200FF35F5 /* DanielReactiveCocoaSample1 */;
+			targetProxy = ABC6C2ED18ED474200FF35F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC6C2D918ED474200FF35F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC6C2DA18ED474200FF35F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABC6C2F218ED474300FF35F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC6C2F318ED474300FF35F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC6C2F718ED474300FF35F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC6C2F818ED474300FF35F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC6C2FA18ED474300FF35F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DanielReactiveCocoaSample1/DanielReactiveCocoaSample1-Prefix.pch";
+				INFOPLIST_FILE = "DanielReactiveCocoaSample1/DanielReactiveCocoaSample1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABC6C2FB18ED474300FF35F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DanielReactiveCocoaSample1/DanielReactiveCocoaSample1-Prefix.pch";
+				INFOPLIST_FILE = "DanielReactiveCocoaSample1/DanielReactiveCocoaSample1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABC6C2FD18ED474300FF35F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DanielReactiveCocoaSample1.app/DanielReactiveCocoaSample1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DanielReactiveCocoaSample1/DanielReactiveCocoaSample1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DanielReactiveCocoaSample1Tests/DanielReactiveCocoaSample1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABC6C2FE18ED474300FF35F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DanielReactiveCocoaSample1.app/DanielReactiveCocoaSample1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DanielReactiveCocoaSample1/DanielReactiveCocoaSample1-Prefix.pch";
+				INFOPLIST_FILE = "DanielReactiveCocoaSample1Tests/DanielReactiveCocoaSample1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC6C2C818ED474200FF35F5 /* Build configuration list for PBXProject "DanielReactiveCocoaSample1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC6C2F718ED474300FF35F5 /* Debug */,
+				ABC6C2F818ED474300FF35F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC6C2F918ED474300FF35F5 /* Build configuration list for PBXNativeTarget "DanielReactiveCocoaSample1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC6C2FA18ED474300FF35F5 /* Debug */,
+				ABC6C2FB18ED474300FF35F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABC6C2FC18ED474300FF35F5 /* Build configuration list for PBXNativeTarget "DanielReactiveCocoaSample1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC6C2FD18ED474300FF35F5 /* Debug */,
+				ABC6C2FE18ED474300FF35F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC6C2C518ED474200FF35F5 /* Project object */;
+}
