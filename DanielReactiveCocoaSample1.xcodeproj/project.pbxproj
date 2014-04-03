@@ -116,14 +116,11 @@
 		ABC6C2D618ED474200FF35F5 /* DanielReactiveCocoaSample1 */ = {
 			isa = PBXGroup;
 			children = (
+				ABD5DBE018EE0B870042B559 /* Classes */,
+				ABC6C2D718ED474200FF35F5 /* Supporting Files */,
 				ABC6C2DF18ED474200FF35F5 /* AppDelegate.h */,
 				ABC6C2E018ED474200FF35F5 /* AppDelegate.m */,
 				ABC6C2E218ED474200FF35F5 /* Images.xcassets */,
-				ABC6C2D718ED474200FF35F5 /* Supporting Files */,
-				AB1A7EB518ED90E600936A51 /* TraditionalViewController.h */,
-				AB1A7EB618ED90E600936A51 /* TraditionalViewController.m */,
-				AB1A7EB818ED90FA00936A51 /* ReactiveCocoaViewController.h */,
-				AB1A7EB918ED90FA00936A51 /* ReactiveCocoaViewController.m */,
 			);
 			path = DanielReactiveCocoaSample1;
 			sourceTree = "<group>";
@@ -155,6 +152,17 @@
 				ABC6C2F218ED474300FF35F5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD5DBE018EE0B870042B559 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB1A7EB518ED90E600936A51 /* TraditionalViewController.h */,
+				AB1A7EB618ED90E600936A51 /* TraditionalViewController.m */,
+				AB1A7EB818ED90FA00936A51 /* ReactiveCocoaViewController.h */,
+				AB1A7EB918ED90FA00936A51 /* ReactiveCocoaViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
