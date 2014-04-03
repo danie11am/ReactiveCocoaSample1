@@ -7,15 +7,33 @@
 //
 
 #import "AppDelegate.h"
+#import "TraditionalViewController.h"
+#import "ReactiveCocoaViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    TraditionalViewController *traditionalVC = [[TraditionalViewController alloc] init];
+    traditionalVC.title = @"Traditional";
+
+    ReactiveCocoaViewController *reactiveVC = [[ReactiveCocoaViewController alloc] init];
+    reactiveVC.title = @"Reactive";
+
+    tabBarController.viewControllers = [NSArray arrayWithObjects: traditionalVC, reactiveVC, nil];
+
+    self.window.rootViewController = tabBarController;
+
+
     return YES;
 }
 

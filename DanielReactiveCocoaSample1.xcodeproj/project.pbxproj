@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1A7EB718ED90E600936A51 /* TraditionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7EB618ED90E600936A51 /* TraditionalViewController.m */; };
+		AB1A7EBA18ED90FA00936A51 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7EB918ED90FA00936A51 /* ReactiveCocoaViewController.m */; };
 		ABC6C2D118ED474200FF35F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D018ED474200FF35F5 /* Foundation.framework */; };
 		ABC6C2D318ED474200FF35F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D218ED474200FF35F5 /* CoreGraphics.framework */; };
 		ABC6C2D518ED474200FF35F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D418ED474200FF35F5 /* UIKit.framework */; };
@@ -19,6 +21,7 @@
 		ABC6C2EC18ED474200FF35F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D418ED474200FF35F5 /* UIKit.framework */; };
 		ABC6C2F418ED474300FF35F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC6C2F218ED474300FF35F5 /* InfoPlist.strings */; };
 		ABC6C2F618ED474300FF35F5 /* DanielReactiveCocoaSample1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6C2F518ED474300FF35F5 /* DanielReactiveCocoaSample1Tests.m */; };
+		ABC6C30318ED489900FF35F5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ABC6C30218ED489900FF35F5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB1A7EB518ED90E600936A51 /* TraditionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalViewController.h; sourceTree = "<group>"; };
+		AB1A7EB618ED90E600936A51 /* TraditionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalViewController.m; sourceTree = "<group>"; };
+		AB1A7EB818ED90FA00936A51 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
+		AB1A7EB918ED90FA00936A51 /* ReactiveCocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController.m; sourceTree = "<group>"; };
 		ABC6C2CD18ED474200FF35F5 /* DanielReactiveCocoaSample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanielReactiveCocoaSample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC6C2D018ED474200FF35F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABC6C2D218ED474200FF35F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +55,7 @@
 		ABC6C2F118ED474200FF35F5 /* DanielReactiveCocoaSample1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DanielReactiveCocoaSample1Tests-Info.plist"; sourceTree = "<group>"; };
 		ABC6C2F318ED474300FF35F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABC6C2F518ED474300FF35F5 /* DanielReactiveCocoaSample1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanielReactiveCocoaSample1Tests.m; sourceTree = "<group>"; };
+		ABC6C30218ED489900FF35F5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		ABC6C2C418ED474200FF35F5 = {
 			isa = PBXGroup;
 			children = (
+				ABC6C30218ED489900FF35F5 /* README.md */,
 				ABC6C2D618ED474200FF35F5 /* DanielReactiveCocoaSample1 */,
 				ABC6C2EF18ED474200FF35F5 /* DanielReactiveCocoaSample1Tests */,
 				ABC6C2CF18ED474200FF35F5 /* Frameworks */,
@@ -111,6 +120,10 @@
 				ABC6C2E018ED474200FF35F5 /* AppDelegate.m */,
 				ABC6C2E218ED474200FF35F5 /* Images.xcassets */,
 				ABC6C2D718ED474200FF35F5 /* Supporting Files */,
+				AB1A7EB518ED90E600936A51 /* TraditionalViewController.h */,
+				AB1A7EB618ED90E600936A51 /* TraditionalViewController.m */,
+				AB1A7EB818ED90FA00936A51 /* ReactiveCocoaViewController.h */,
+				AB1A7EB918ED90FA00936A51 /* ReactiveCocoaViewController.m */,
 			);
 			path = DanielReactiveCocoaSample1;
 			sourceTree = "<group>";
@@ -219,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC6C30318ED489900FF35F5 /* README.md in Resources */,
 				ABC6C2DB18ED474200FF35F5 /* InfoPlist.strings in Resources */,
 				ABC6C2E318ED474200FF35F5 /* Images.xcassets in Resources */,
 			);
@@ -239,8 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1A7EB718ED90E600936A51 /* TraditionalViewController.m in Sources */,
 				ABC6C2E118ED474200FF35F5 /* AppDelegate.m in Sources */,
 				ABC6C2DD18ED474200FF35F5 /* main.m in Sources */,
+				AB1A7EBA18ED90FA00936A51 /* ReactiveCocoaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +455,7 @@
 				ABC6C2FB18ED474300FF35F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC6C2FC18ED474300FF35F5 /* Build configuration list for PBXNativeTarget "DanielReactiveCocoaSample1Tests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +464,7 @@
 				ABC6C2FE18ED474300FF35F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
