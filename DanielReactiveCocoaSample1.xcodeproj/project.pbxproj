@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB1A7EB718ED90E600936A51 /* TraditionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7EB618ED90E600936A51 /* TraditionalViewController.m */; };
 		AB1A7EBA18ED90FA00936A51 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7EB918ED90FA00936A51 /* ReactiveCocoaViewController.m */; };
+		ABA2F37B18EF781D00E04EBF /* CommonInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA2F37A18EF781D00E04EBF /* CommonInterfaceViewController.m */; };
 		ABC6C2D118ED474200FF35F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D018ED474200FF35F5 /* Foundation.framework */; };
 		ABC6C2D318ED474200FF35F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D218ED474200FF35F5 /* CoreGraphics.framework */; };
 		ABC6C2D518ED474200FF35F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D418ED474200FF35F5 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 		AB1A7EB618ED90E600936A51 /* TraditionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalViewController.m; sourceTree = "<group>"; };
 		AB1A7EB818ED90FA00936A51 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
 		AB1A7EB918ED90FA00936A51 /* ReactiveCocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController.m; sourceTree = "<group>"; };
+		ABA2F37918EF781D00E04EBF /* CommonInterfaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonInterfaceViewController.h; sourceTree = "<group>"; };
+		ABA2F37A18EF781D00E04EBF /* CommonInterfaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonInterfaceViewController.m; sourceTree = "<group>"; };
 		ABC6C2CD18ED474200FF35F5 /* DanielReactiveCocoaSample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanielReactiveCocoaSample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC6C2D018ED474200FF35F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABC6C2D218ED474200FF35F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -157,6 +160,8 @@
 		ABD5DBE018EE0B870042B559 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				ABA2F37918EF781D00E04EBF /* CommonInterfaceViewController.h */,
+				ABA2F37A18EF781D00E04EBF /* CommonInterfaceViewController.m */,
 				AB1A7EB518ED90E600936A51 /* TraditionalViewController.h */,
 				AB1A7EB618ED90E600936A51 /* TraditionalViewController.m */,
 				AB1A7EB818ED90FA00936A51 /* ReactiveCocoaViewController.h */,
@@ -263,6 +268,7 @@
 			files = (
 				AB1A7EB718ED90E600936A51 /* TraditionalViewController.m in Sources */,
 				ABC6C2E118ED474200FF35F5 /* AppDelegate.m in Sources */,
+				ABA2F37B18EF781D00E04EBF /* CommonInterfaceViewController.m in Sources */,
 				ABC6C2DD18ED474200FF35F5 /* main.m in Sources */,
 				AB1A7EBA18ED90FA00936A51 /* ReactiveCocoaViewController.m in Sources */,
 			);

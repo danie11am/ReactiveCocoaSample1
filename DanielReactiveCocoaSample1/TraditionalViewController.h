@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CommonInterfaceViewController.h"
 
-@interface TraditionalViewController : UIViewController
+@interface TraditionalViewController : CommonInterfaceViewController
 
 @end

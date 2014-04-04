@@ -31,6 +31,7 @@
 
     self.view.backgroundColor = [UIColor yellowColor];
 
+    self.titleLabel.text = @"ReactiveCocoa programming style";
 }
 
 - (void)didReceiveMemoryWarning

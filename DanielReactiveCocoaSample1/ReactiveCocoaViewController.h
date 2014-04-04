@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CommonInterfaceViewController.h"
 
-@interface ReactiveCocoaViewController : UIViewController
+
+@interface ReactiveCocoaViewController : CommonInterfaceViewController
 
 @end
