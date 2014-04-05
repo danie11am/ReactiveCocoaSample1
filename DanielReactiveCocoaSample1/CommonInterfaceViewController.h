@@ -16,6 +16,10 @@
  */
 @interface CommonInterfaceViewController : UIViewController
 
+@property UIColor *INVALID_STAR_COLOR;
+@property UIColor *VALID_STAR_COLOR;
+
+
 @property UILabel *titleLabel;
 @property UILabel *nameLabel;
 @property UILabel *starLabel;

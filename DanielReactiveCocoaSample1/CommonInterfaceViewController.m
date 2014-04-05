@@ -28,6 +28,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.INVALID_STAR_COLOR = [UIColor lightGrayColor];
+    self.VALID_STAR_COLOR = [UIColor blueColor];
+
     [self addUIComponents];
 
 }
@@ -83,7 +86,7 @@
     starLabel.translatesAutoresizingMaskIntoConstraints = NO;
     starLabel.text = @"★";
     starLabel.backgroundColor = [UIColor clearColor];
-    starLabel.textColor = [UIColor lightGrayColor];
+    starLabel.textColor = self.INVALID_STAR_COLOR;
     [starLabel sizeToFit];
     [starLabel setContentHuggingPriority:UILayoutPriorityDefaultHigh forAxis:UILayoutConstraintAxisHorizontal];
 

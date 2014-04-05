@@ -11,4 +11,7 @@
 
 @interface TraditionalViewController : CommonInterfaceViewController
 
+/** This is set to YES when content of name field is considered valid (e.g. length >= 5). */
+@property BOOL nameIsValid;
+
 @end

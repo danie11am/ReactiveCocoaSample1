@@ -23,8 +23,11 @@
     return self;
 }
 
+
+
 - (void)viewDidLoad
 {
+    // By calling viewDidLoad: of super class, all the interface components will be set up to appear.
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
@@ -33,7 +36,82 @@
 
     self.titleLabel.text = @"Traditional programming style";
 
+    self.nameIsValid = NO;
+
+    // Set up a callback function to be called whenever content of name field is changed.
+    [self.nameField addTarget: self
+                       action: @selector(nameFieldDidChange:)
+             forControlEvents: UIControlEventEditingChanged
+     ];
+
+    // Set up a callback function to be called whenever button is clicked.
+    [self.submitButton addTarget:self
+                          action:@selector(submitButtonPressed)
+                forControlEvents:UIControlEventTouchUpInside
+     ];
+
 }
+
+
+
+/**
+ Called when any touch is performed in this view controller and has not been processed by a subview.
+ */
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
+}
+
+
+
+/**
+ Called when name field content is changed.
+ */
+- (void)nameFieldDidChange: (UITextField *) textField
+{
+    NSLog(@"Name field changed, content: %@", textField.text);
+
+    // Change the color of the Star symbol depending on the length of entered name.
+    if (textField.text.length >= 5) {
+        self.starLabel.textColor = self.VALID_STAR_COLOR;
+        self.nameIsValid = YES;
+
+    } else {
+        self.starLabel.textColor = self.INVALID_STAR_COLOR;
+        self.nameIsValid = NO;
+    }
+}
+
+
+
+/**
+ Called when submit button is pressed.
+ */
+- (void) submitButtonPressed
+{
+    NSLog(@"submitButton is pressed!");
+    
+    NSString *message;
+
+    if (self.nameIsValid) {
+        message = [NSString stringWithFormat: @"Welcome %@!", self.nameField.text];
+        
+    } else {
+        message = @"Name is too short.";
+    }
+    
+    UIAlertView *popup = [[UIAlertView alloc] initWithTitle: @""
+                                                    message: message
+                                                   delegate: nil
+                                          cancelButtonTitle: @"OK"
+                                          otherButtonTitles: nil, nil
+                          ];
+    [popup show];
+
+}
+
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
