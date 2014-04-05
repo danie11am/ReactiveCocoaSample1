@@ -76,7 +76,17 @@
     UITextField *nameField = [[UITextField alloc] init];
     nameField.backgroundColor = [UIColor whiteColor];
     nameField.translatesAutoresizingMaskIntoConstraints = NO;
-    nameField.placeholder = @"Enter name";
+    nameField.placeholder = @" Enter your name";
+
+    
+    UILabel *starLabel = [[UILabel alloc] init];
+    starLabel.translatesAutoresizingMaskIntoConstraints = NO;
+    starLabel.text = @"★";
+    starLabel.backgroundColor = [UIColor clearColor];
+    starLabel.textColor = [UIColor lightGrayColor];
+    [starLabel sizeToFit];
+    [starLabel setContentHuggingPriority:UILayoutPriorityDefaultHigh forAxis:UILayoutConstraintAxisHorizontal];
+
     
     UIButton *submitButton = [[UIButton alloc] init];
     submitButton.translatesAutoresizingMaskIntoConstraints = NO;
@@ -85,15 +95,19 @@
     [submitButton setTitleColor: [UIColor lightGrayColor] forState: UIControlStateHighlighted];
     [submitButton sizeToFit];
     
+    
     [self.view addSubview: titleLabel];
     [self.view addSubview: nameLabel];
     [self.view addSubview: nameField];
+    [self.view addSubview: starLabel];
     [self.view addSubview: submitButton];
 
+    
     // Save them to properties so that subclass can access them.
     self.titleLabel = titleLabel;
     self.nameLabel = nameLabel;
     self.nameField = nameField;
+    self.starLabel = starLabel;
     self.submitButton = submitButton;
     
     
@@ -141,6 +155,15 @@
                                                               constant: GAP
                                  ],
                                 // Set Name field
+                                // ...on same level as Name label.
+                                [NSLayoutConstraint constraintWithItem: nameField
+                                                             attribute: NSLayoutAttributeCenterY
+                                                             relatedBy: NSLayoutRelationEqual
+                                                                toItem: nameLabel
+                                                             attribute: NSLayoutAttributeCenterY
+                                                            multiplier: 1.0
+                                                              constant: 0
+                                 ],
                                 // ...to be right of Name label.
                                 [NSLayoutConstraint constraintWithItem: nameField
                                                              attribute: NSLayoutAttributeLeft
@@ -150,23 +173,33 @@
                                                             multiplier: 1.0
                                                               constant: GAP
                                  ],
-                                // ...align to right of screen, with some gap.
+                                // ...align to left of star label, with some gap.
                                 [NSLayoutConstraint constraintWithItem: nameField
                                                              attribute: NSLayoutAttributeRight
                                                              relatedBy: NSLayoutRelationEqual
-                                                                toItem: self.view
-                                                             attribute: NSLayoutAttributeRight
+                                                                toItem: starLabel
+                                                             attribute: NSLayoutAttributeLeft
                                                             multiplier: 1.0
                                                               constant: -GAP
                                  ],
+                                // Set Star label
                                 // ...on same level as Name label.
-                                [NSLayoutConstraint constraintWithItem: nameField
+                                [NSLayoutConstraint constraintWithItem: starLabel
                                                              attribute: NSLayoutAttributeCenterY
                                                              relatedBy: NSLayoutRelationEqual
                                                                 toItem: nameLabel
                                                              attribute: NSLayoutAttributeCenterY
                                                             multiplier: 1.0
                                                               constant: 0
+                                 ],
+                                // ...align to righs of screen, with some gap.
+                                [NSLayoutConstraint constraintWithItem: starLabel
+                                                             attribute: NSLayoutAttributeRight
+                                                             relatedBy: NSLayoutRelationEqual
+                                                                toItem: self.view
+                                                             attribute: NSLayoutAttributeRight
+                                                            multiplier: 1.0
+                                                              constant: -GAP
                                  ],
                                 // Set Submit button
                                 // ...to be horizontally centered.

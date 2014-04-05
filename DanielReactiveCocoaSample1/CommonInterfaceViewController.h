@@ -18,6 +18,7 @@
 
 @property UILabel *titleLabel;
 @property UILabel *nameLabel;
+@property UILabel *starLabel;
 @property UITextField *nameField;
 @property UIButton *submitButton;
 
