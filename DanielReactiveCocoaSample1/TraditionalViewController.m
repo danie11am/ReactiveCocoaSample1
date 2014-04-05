@@ -55,16 +55,6 @@
 
 
 /**
- Called when any touch is performed in this view controller and has not been processed by a subview.
- */
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [self.view endEditing:YES];
-}
-
-
-
-/**
  Called when name field content is changed.
  */
 - (void)nameFieldDidChange: (UITextField *) textField
