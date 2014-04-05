@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB1A7EB718ED90E600936A51 /* TraditionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7EB618ED90E600936A51 /* TraditionalViewController.m */; };
 		AB1A7EBA18ED90FA00936A51 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7EB918ED90FA00936A51 /* ReactiveCocoaViewController.m */; };
+		AB46841318EFB8D1000DF95B /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4683FF18EFB49E000DF95B /* libReactiveCocoa-iOS.a */; };
 		ABA2F37B18EF781D00E04EBF /* CommonInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA2F37A18EF781D00E04EBF /* CommonInterfaceViewController.m */; };
 		ABC6C2D118ED474200FF35F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D018ED474200FF35F5 /* Foundation.framework */; };
 		ABC6C2D318ED474200FF35F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC6C2D218ED474200FF35F5 /* CoreGraphics.framework */; };
@@ -116,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB46841318EFB8D1000DF95B /* libReactiveCocoa-iOS.a in Frameworks */,
 				ABC6C2D318ED474200FF35F5 /* CoreGraphics.framework in Frameworks */,
 				ABC6C2D518ED474200FF35F5 /* UIKit.framework in Frameworks */,
 				ABC6C2D118ED474200FF35F5 /* Foundation.framework in Frameworks */,
