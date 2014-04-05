@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ A view controller to set up the UI componenets. 
+ 
+ Interactions are coded in subclasses to demonstrate how it can be done with the traditional way and 
+ the ReactiveCocoa way.
+ */
 @interface CommonInterfaceViewController : UIViewController
 
 @property UILabel *titleLabel;

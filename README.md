@@ -5,4 +5,5 @@ It also illustrates the use of other iOS frameworks/coding practice including:
 
 - Auto Layout
 - UITabBarController
-- Everything done programmatically - no storyboards/nib files
+- Code-reuse by implementing subclasses
+- UI done programmatically - no storyboards/nib files
