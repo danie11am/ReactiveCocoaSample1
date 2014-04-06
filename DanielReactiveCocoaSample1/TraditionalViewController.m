@@ -36,7 +36,7 @@
 
     self.titleLabel.text = @"Traditional programming style";
 
-    self.nameIsValid = NO;
+    self.isNameValid = NO;
 
     // Set up a callback function to be called whenever content of name field is changed.
     [self.nameField addTarget: self
@@ -64,11 +64,11 @@
     // Change the color of the Star symbol depending on the length of entered name.
     if (textField.text.length >= 5) {
         self.starLabel.textColor = self.VALID_STAR_COLOR;
-        self.nameIsValid = YES;
+        self.isNameValid = YES;
 
     } else {
         self.starLabel.textColor = self.INVALID_STAR_COLOR;
-        self.nameIsValid = NO;
+        self.isNameValid = NO;
     }
 }
 
@@ -83,7 +83,7 @@
     
     NSString *message;
 
-    if (self.nameIsValid) {
+    if (self.isNameValid) {
         message = [NSString stringWithFormat: @"Welcome %@!", self.nameField.text];
         
     } else {
